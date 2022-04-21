@@ -17,6 +17,10 @@ async function run(){
     try{
         await client.connect();
         const userCollection = client.db('foodExpress').collection('user');
+        
+        app.
+
+
 
         const user ={ name: 'Nadiya Nodi', email: 'nodi@gmail.com'};
         const result = await userCollection.insertOne(user);
